@@ -10,10 +10,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="jp.techacademy.hiroaki.kawamoto.myapplication.MainActivity">
+    tools:context="jp.techacademy.hiroaki.kawamoto.myapplication.MainActivity"
+    android:weightSum="1">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Helo Android!"/>
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Helo Android!"
+        android:textSize="40sp"/>
 </LinearLayout>
